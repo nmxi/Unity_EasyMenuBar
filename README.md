@@ -1,6 +1,8 @@
 # Unity_EasyMenuBar
 Unityでメニューバーを作成する
 
+スパゲッティソースデスソース和えなので悪しからず．
+
 ### UnityVersion
 Unity2019.1.8f1
 
