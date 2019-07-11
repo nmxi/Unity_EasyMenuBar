@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7653270805293314049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7653270805293314054}
+  - component: {fileID: 7653270805293314053}
+  - component: {fileID: 7653270805293314052}
+  - component: {fileID: 7653270805293314051}
+  - component: {fileID: 7653270805293314050}
+  m_Layer: 0
+  m_Name: Master
+  m_TagString: Master
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7653270805293314054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653270805293314049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7653270805293314053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653270805293314049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f018b561761dec840bf78d2854ad2245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menuBarController: {fileID: 7653270805293314050}
+--- !u!114 &7653270805293314052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653270805293314049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e426c0a96add8c348a9da1a57723aab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camvas: {fileID: 0}
+  MenuBarObj: {fileID: 0}
+  MenuBarRootImage: {fileID: 0}
+  MenuBarElementParentObj: {fileID: 0}
+--- !u!114 &7653270805293314051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653270805293314049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddaa742c7c6a8c488f1b51ab8410d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIBackGroundSprite: {fileID: 21300000, guid: e689e5c4ad2e7bc40b5ce20aa784dbdc, type: 3}
+  ButtonBackGroundSprite: {fileID: 21300000, guid: 5461ce26641eb7143b1169f0f51ff171,
+    type: 3}
+--- !u!114 &7653270805293314050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7653270805293314049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607160c346ccd8c4db507fcfaf8e7110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uIManager: {fileID: 7653270805293314052}
+  _uIResourceManager: {fileID: 7653270805293314051}
+  MenuBarEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
