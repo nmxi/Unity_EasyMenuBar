@@ -23,6 +23,22 @@ namespace dev.kemomimi.UI.menubar
 
         [Space(15f)]public StringEvent CommandCallback;
 
+        private Vector2 _currentWindowSize;
+
+        void Awake()
+        {
+            _currentWindowSize = new Vector2(Screen.width, Screen.height);
+        }
+
+        void Update()
+        {
+            if(_currentWindowSize != new Vector2(Screen.width, Screen.height))
+            {
+                _currentWindowSize = new Vector2(Screen.width, Screen.height);
+                ReDraw();
+            }
+        }
+
         public void ClearMenuElementObjects()
         {
             foreach (var g in _lastInstancedElementObjList)
